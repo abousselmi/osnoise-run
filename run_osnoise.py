@@ -16,7 +16,7 @@
 
 # Use: python run_osnoise.py -h to print help
 # Use: python run_osnoise.py --config--dir /dir/to/configfile/ to use a
-# different config directory.
+# custom config directory.
 
 from osnoise import OSNoise
 
