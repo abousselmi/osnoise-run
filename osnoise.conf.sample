@@ -40,3 +40,8 @@ message_type = application/json
 message_encoding = utf-8
 publish_rate = 10
 duration = 15
+
+[tsunami_conf]
+# tsunami wave message count, used to test in how much time
+# tsunami_message_count messages are published.
+#tsunami_message_count = 10000

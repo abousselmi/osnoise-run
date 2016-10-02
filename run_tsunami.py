@@ -14,13 +14,13 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# Use: python run_osnoise.py -h to print help
-# Use: python run_osnoise.py --config--dir /dir/to/configfile/ to use a
+# Use: python run_tsunami.py -h to print help
+# Use: python run_tsunami.py --config--dir /dir/to/configfile/ to use a
 # custom config directory.
 
-from osnoise import OSNoise
+from osnoise import Wave
 
-generator = OSNoise()
+wave = Wave()
 
 if __name__ == '__main__':
-    generator.run()
+    wave.run()
